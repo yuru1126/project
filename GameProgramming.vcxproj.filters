@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{9f64f4ff-d9e0-43d7-88e1-13e6d3656a89}</UniqueIdentifier>
+      <Extensions>hlsl;hlsli</Extensions>
+    </Filter>
+    <Filter Include="External\imgui">
+      <UniqueIdentifier>{c85446c9-90d2-4441-add5-5aac511d95ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\DirectXTex">
+      <UniqueIdentifier>{8dd0c8ba-1f1c-4648-8a04-c28bb5a1c75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{1922815d-5a70-4f38-9fbd-fb6e72c44df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{2ac7cb79-cb10-43d1-856f-e51f0f698e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{dfdec87c-66e2-424a-8126-477d89e5eb73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Particle">
+      <UniqueIdentifier>{676e11d9-cc59-432b-910e-a8f3d4cab88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stage">
+      <UniqueIdentifier>{ec4a93cb-7679-4740-b428-ab9ab0c3192d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stage\Inheritance">
+      <UniqueIdentifier>{b9aa568c-0bfd-438c-af80-9706d94bba7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{8603cab9-f36d-4114-a598-34be1e8dbd87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene\Inheritance">
+      <UniqueIdentifier>{4aed1d94-ed75-4127-be7c-3643be40b4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Renderer">
+      <UniqueIdentifier>{11543762-cdd9-4129-bf02-42a566703ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Model">
+      <UniqueIdentifier>{07e4cb3c-86e5-4293-88f0-5ce3a6890254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Shader">
+      <UniqueIdentifier>{4e97f895-fb6e-4fd2-8da4-edd84afc0d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\3D">
+      <UniqueIdentifier>{68fd5dca-3136-4fdf-99e9-694719b73d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\2D">
+      <UniqueIdentifier>{d6303a9b-6e1d-4a6c-9e1b-c01b7bc9ff35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\Particle">
+      <UniqueIdentifier>{372dffe1-97e5-4f08-af1a-246729efc0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FluidSimulation">
+      <UniqueIdentifier>{beee35e2-399e-4c9a-b7d0-d977d4767ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL\FluidSimulation">
+      <UniqueIdentifier>{f6931997-6eb3-4001-b6d2-b41034bc2485}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="External\imgui\imconfig.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_internal.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_rectpack.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_textedit.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_truetype.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\DirectXTex\WICTextureLoader.h">
+      <Filter>External\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\GamePad.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HighResolutionTimer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Logger.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Misc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DebugRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Graphics.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ImGuiRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\RenderContext.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\LineRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Sprite.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\Audio.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioResource.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioSource.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Mouse.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraController.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collison.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EffectManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mathf.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderBox.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\Particle.h">
+      <Filter>Source\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Framebuffer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\FullscreenQuad.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ResourceManager.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\Stage.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageManager.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\Inheritance\StageMain.h">
+      <Filter>Source\Stage\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Inheritance\SceneTitle.h">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Inheritance\SceneLoading.h">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\BaseRenderer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\ModelRenderer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\DeferredRenderer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\RenderTarget.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Texture.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DepthStencil.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model\Model.h">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model\ModelResource.h">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model\PolygonModel.h">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\Shader3D.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\LambertShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\PolygonShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\VoronoiShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model\VoronoiModel.h">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\Shader2D.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Gbuffer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\LightManager.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Light.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\ShadowMapShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\SkyboxShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer\ShadowmapRenderer.h">
+      <Filter>Source\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\ShadowmapCasterShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\HDRTexture.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\ParticleManager.h">
+      <Filter>Source\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model\RegisterModelManager.h">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\Inheritance\VoronoiStage.h">
+      <Filter>Source\Stage\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader\ProjectionTextureMapShader.h">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ProjectionTexture.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ProjectionTextureManager.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle\Emitter.h">
+      <Filter>Source\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Inheritance\SceneExhibition.h">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FluidSimulation\FluidSimulation.h">
+      <Filter>Source\FluidSimulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="External\imgui\imgui.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_demo.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_draw.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_widgets.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\DirectXTex\WICTextureLoader.cpp">
+      <Filter>External\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\GamePad.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Logger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DebugRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Graphics.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ImGuiRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\LineRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Sprite.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\Audio.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioResource.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioSource.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Mouse.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraController.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collison.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EffectManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mathf.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderBox.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\Particle.cpp">
+      <Filter>Source\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Framebuffer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\FullscreenQuad.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ResourceManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\StageManager.cpp">
+      <Filter>Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\Inheritance\StageMain.cpp">
+      <Filter>Source\Stage\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Inheritance\SceneTitle.cpp">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Inheritance\SceneLoading.cpp">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\BaseRenderer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\ModelRenderer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\DeferredRenderer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\RenderTarget.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Texture.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DepthStencil.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model\Model.cpp">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model\ModelResource.cpp">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\Shader3D.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\LambertShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\PolygonShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\VoronoiShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\Shader2D.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Gbuffer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\LightManager.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Light.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\ShadowMapShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\SkyboxShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer\ShadowmapRenderer.cpp">
+      <Filter>Source\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\ShadowmapCasterShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\HDRTexture.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\ParticleManager.cpp">
+      <Filter>Source\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model\RegisterModelManager.cpp">
+      <Filter>Source\Graphics\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\Inheritance\VoronoiStage.cpp">
+      <Filter>Source\Stage\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Shader\ProjectionTextureMapShader.cpp">
+      <Filter>Source\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ProjectionTexture.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ProjectionTextureManager.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle\Emitter.cpp">
+      <Filter>Source\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Inheritance\SceneExhibition.cpp">
+      <Filter>Source\Scene\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FluidSimulation\FluidSimulation.cpp">
+      <Filter>Source\FluidSimulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Debug.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\ImGui.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Line.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\ShadowmapCaster.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Skybox.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Constants.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\ShadowMap.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\ProjectionTextureMap.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\fullscreen_quad.hlsli">
+      <Filter>HLSL\2D</Filter>
+    </None>
+    <None Include="HLSL\Lambert.hlsli">
+      <Filter>HLSL\3D</Filter>
+    </None>
+    <None Include="HLSL\Polygon.hlsli">
+      <Filter>HLSL\3D</Filter>
+    </None>
+    <None Include="HLSL\PostEffect.hlsli">
+      <Filter>HLSL\2D</Filter>
+    </None>
+    <None Include="HLSL\Voronoi.hlsli">
+      <Filter>HLSL\3D</Filter>
+    </None>
+    <None Include="HLSL\Sprite.hlsli">
+      <Filter>HLSL\2D</Filter>
+    </None>
+    <None Include="HLSL\DepthShader.hlsli">
+      <Filter>HLSL\3D</Filter>
+    </None>
+    <None Include="HLSL\Particle.hlsli">
+      <Filter>HLSL\Particle</Filter>
+    </None>
+    <None Include="HLSL\Mathf.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\FluidSimulation.hlsli">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\DebugPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ImGuiPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ImGuiVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LineVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LinePS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowmapCasterVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SkyboxVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SkyboxPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowMapPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowMapVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ProjectionTextureMapPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ProjectionTextureMapVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\2D_VS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\BloomShaderPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\blurPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\CompositePS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DeferredEnvironmentPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DeferredLightPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DeferredLightShadowPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DofBloomShaderPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\fullscreen_quadPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\fullscreen_quadVS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LambertPS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LambertVS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\luminance_extractionPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PolygonDS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PolygonGS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PolygonHS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PolygonPS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PolygonVS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PostEffectVS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\PostEffectPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ShadowMapBlurPS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\VoronoiPS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\VoronoiVS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SpritePS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SpriteVS.hlsl">
+      <Filter>HLSL\2D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DepthShaderVS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DepthShaderPS.hlsl">
+      <Filter>HLSL\3D</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSInit.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSRegister.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSSet.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSUpdate.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleGS.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticlePS.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleVS.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSSetOne.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSRegisterOne.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSInit.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSAdve.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSViscosity.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSWallZero.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSDiv.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSPoisson.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSFix.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSForce.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FluidSimulationCSCopy.hlsl">
+      <Filter>HLSL\FluidSimulation</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ParticleCSUpdateFluid.hlsl">
+      <Filter>HLSL\Particle</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
